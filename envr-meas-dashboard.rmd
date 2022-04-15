@@ -118,6 +118,7 @@ input sidebar{.sidebar}
 Check [**About**](#about) page for more information.
 
 ***
+***
 
 ```{r sliderinput with animation}
 
@@ -127,6 +128,7 @@ sliderInput(inputId = "year", label = "Select Year:",
 
 ```
 
+***
 ***
 
 This page shows state-level GHG emission in US from 2011 to 2020.
@@ -237,6 +239,7 @@ input sidebar {.sidebar}
 This page provides GHG emission 10-year trend for 4 states
 
 ***
+***
 
 ```{r}
 
@@ -247,6 +250,7 @@ selectInput("state","Select State: ",
 
 ```
 
+***
 ***
 
 The stacked area graphs illustrate overall trend of total GHG emission by either 
@@ -437,6 +441,7 @@ input sidebar {.sidebar}
 For a specific state, we can further zoom in on a single year.
 
 ***
+***
 
 ```{r selectInput and sliderInput for GHG}
 
@@ -452,6 +457,7 @@ sliderInput(inputId = "Year", label = "Select Year:",
 
 ```
 
+***
 ***
 
 This page shows a selected state's yearly GHG emission by both industry and gas
@@ -670,6 +676,7 @@ Now let's look further into AQI data, which involves 6 areas within 4 previously
 studied states.
 
 ***
+***
 
 ```{r}
 
@@ -682,6 +689,7 @@ selectInput("area","Select an Area: ",
 
 ```
 
+***
 ***
 
 This page shows the selected area's geographic location and focuses mainly on 
@@ -1100,6 +1108,7 @@ input sidebar {.sidebar}
 For a specific area, we can further zoom in on a single year.
 
 ***
+***
 
 ```{r selectInput and sliderInput for AQI}
 
@@ -1116,6 +1125,7 @@ sliderInput(inputId = "YEAR", label = "Select a Year:",
 
 ```
 
+***
 ***
 
 This page shows AQI value daily trend over a single year for an area, with all 
